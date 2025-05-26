@@ -17,7 +17,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | environments.
 |
 */
-$config["base_url"] = 'http://localhost/open/';
+$config["base_url"] = 'http://eetuegp172deolindofelipe.infinityfreeapp.com/';
 
 /*
 |--------------------------------------------------------------------------

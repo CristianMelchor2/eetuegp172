@@ -63,11 +63,11 @@ $active_group = 'default';
 $query_builder = TRUE;
 
 $db['default'] = array(
-	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => '',
-	'database' => 'open',
+	'dsn'   => '',
+	'hostname' => 'sql210.infinityfree.com',
+	'username' => 'if0_39074748',
+	'password' => '5WqDCqORx3CmG1',
+	'database' => 'if0_39074748_EET172',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,

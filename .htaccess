@@ -4,4 +4,10 @@
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteRule ^(.*)$ index.php/$1 [L]
+    # InfinityFree: Evitar errores por reglas de PHP incompatibles
+    # Descomenta la siguiente línea si tienes problemas con PHP
+    # AddHandler application/x-httpd-php80 .php
 </IfModule>
+# Opcional: Mostrar errores PHP solo para depuración (eliminar en producción)
+# php_flag display_errors On
+# php_value error_reporting 32767

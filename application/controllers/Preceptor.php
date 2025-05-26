@@ -98,7 +98,6 @@ class Preceptor extends CI_Controller {
         $this->load->model('Student_model');
         $this->Student_model->updateNewStudent($student_id);
         redirect('preceptor/dashboard');
-}
     public function delete_student($student_id) {
         $this->load->model('Student_model');
         $this->Student_model->deleteNewStudent($student_id);
